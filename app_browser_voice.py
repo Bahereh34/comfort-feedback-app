@@ -7,10 +7,10 @@ import uuid
 # from supabase import create_client, Client
 
 # --- Optional: Set up Supabase if needed ---
-SUPABASE_URL = "https://wgxwlildclogrdbgvtpr.supabase.co"  # ← Replace with your Supabase URL
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndneHdsaWxkY2xvZ3JkYmd2dHByIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAyNTM5MTIsImV4cCI6MjA2NTgyOTkxMn0.vpfHJA_9WecWpPa8g7OeFS02F391NCLJCDHFGZiTsLw"  # Replace with your anon key
+#SUPABASE_URL = "https://wgxwlildclogrdbgvtpr.supabase.co"  # ← Replace with your Supabase URL
+#SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndneHdsaWxkY2xvZ3JkYmd2dHByIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAyNTM5MTIsImV4cCI6MjA2NTgyOTkxMn0.vpfHJA_9WecWpPa8g7OeFS02F391NCLJCDHFGZiTsLw"  # Replace with your anon key
 
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+#supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # --- Initialize session state ---
 if "feedback_text" not in st.session_state:
